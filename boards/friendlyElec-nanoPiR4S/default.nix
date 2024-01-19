@@ -13,5 +13,8 @@
 
   Tow-Boot = {
     defconfig = "nanopi-r4s-rk3399_defconfig";
+    patches = [
+      ./mac-from-eeprom.patch
+    ];
   };
 }
